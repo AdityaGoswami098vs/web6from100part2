@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="navbar" class="obj-width">
+            <a href="index.html"><img class="logo" src="Images/logo.png" alt=""></a>
+            <ul id="menu">
+                <li><a href="https://web6from100.netlify.app/">Home</a></li>
+                <li><a href="">Browse Jobs</a></li>
+                <li><a href="">Contact</a></li>
+                <button id="w-btn" class="w-btn-mobile">Join</button>
+            </ul>
+            <i id="bar" class="bi bi-list"></i>
+        </div>
+    </header>
+
+    <section class="job sec-space obj-width extra-space">
+        <h2>Jobs in Demand</h2>
+        <p>Most viewed and all-time top-selling services</p>
+
+        <form>
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Search Jobs" id="searchBar">
+        </form>
+
+        <ul class="job-id">
+            <li data-target="all" class="active">Recent Jobs</li>
+            <li data-target="freelancer">Freelancer</li>
+            <li data-target="fullTime">Full Time</li>
+            <li data-target="partTime">Part Time</li>
+        </ul>
+
+        <div class="job-container">
+            <li data-item="fullTime" class="jList" onclick="window.location.href='job-details-google.html'">
+                <img src="Images/google.png" alt="">
+                <h3>Web Developer</h3>
+                <p>$900-$1200/m</p>
+                <span id="key">Full Time</span>
+            </li>
+            <li data-item="freelancer" class="jList" onclick="window.location.href='job-details-uber.html'">
+                <img src="Images/uber.png" alt="">
+                <h3>Freelancer</h3>
+                <p>$900-$1200/m</p>
+                <span id="key">Freelancer</span>
+            </li>
+            <li data-item="partTime" class="jList" onclick="window.location.href='job-details-linkedin.html'">
+                <img src="Images/linkedin.png" alt="">
+                <h3>Business Associate</h3>
+                <p>$900-$1200/m</p>
+                <span id="key">Part Time</span>
+            </li>
+            <li data-item="fullTime" class="jList" onclick="window.location.href='job-details-facebook.html'">
+                <img src="Images/facebook.png" alt="">
+                <h3>Digital Marketing</h3>
+                <p>$900-$1200/m</p>
+                <span id="key">Full Time</span>
+            </li>
+            <li data-item="partTime" class="jList" onclick="window.location.href='job-details-yahoo.html'">
+                <img src="Images/yahoo.png" alt="">
+                <h3>User Experience</h3>
+                <p>$900-$1200/m</p>
+                <span id="key">Part Time</span>
+            </li>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="obj-width">
+            <div class="top">
+                <div>
+                    <img class="logo" src="Images/logo.png" alt="">
+                    <p>Search your desired Jobs</p>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/aditya_goswami_7" target="_blank"><i
+                            class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/aditya_goswami_7" target="_blank"><i
+                            class="bi bi-instagram"></i></a>
+                    <a href="https://github.com/AdityaGoswami098vs" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="https://x.com/AdityaGosw98975" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div>
+                    <h3>Project</h3>
+                    <a href="#">Changelog</a>
+                    <a href="#">Status</a>
+                    <a href="#">Licence</a>
+                    <a href="#">All Version</a>
+                </div>
+                <div>
+                    <h3>Community</h3>
+                    <a href="#">GitHub</a>
+                    <a href="#">Issues</a>
+                    <a href="#">Project</a>
+                    <a href="#">Twitter</a>
+                </div>
+                <div>
+                    <h3>Help</h3>
+                    <a href="#">Support</a>
+                    <a href="#">Troubleshooting</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div>
+                    <h3>Others</h3>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Licence</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
